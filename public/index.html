@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DuckDB Node.js (Neo) — Live Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="duck">🦆</span>
+      <div>
+        <h1>DuckDB Node.js (Neo)</h1>
+        <p class="tagline">
+          One in-memory database. Four raw files. Eleven demos.
+        </p>
+      </div>
+    </div>
+    <div class="meta" id="meta">
+      <span class="badge" id="badge-duck">DuckDB</span>
+      <span class="badge" id="badge-node">Node</span>
+      <span class="badge" id="badge-cap">Row cap</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel datasets">
+      <header>
+        <h2>Source files</h2>
+        <p>
+          DuckDB reads these files directly with
+          <code>read_csv_auto</code> / <code>read_json_auto</code>.
+          No tables. No imports. No schemas to define.
+        </p>
+      </header>
+      <div id="datasets" class="datasets-grid">
+        <div class="muted">Loading file metadata…</div>
+      </div>
+    </section>
+
+    <section class="panel demos">
+      <header>
+        <h2>Curated demos</h2>
+        <p>
+          Click a card to load the SQL into the playground below, then hit
+          <kbd>Run</kbd>. Edit freely — every query runs live.
+        </p>
+      </header>
+      <div id="demos" class="demos-grid">
+        <div class="muted">Loading demos…</div>
+      </div>
+    </section>
+
+    <section class="panel playground">
+      <header class="playground-header">
+        <div>
+          <h2>SQL playground</h2>
+          <p id="active-demo" class="muted">Select a demo above, or write your own SQL.</p>
+        </div>
+        <div class="actions">
+          <button id="btn-run" class="primary">Run ▶</button>
+          <button id="btn-clear">Clear</button>
+        </div>
+      </header>
+
+      <textarea id="sql" spellcheck="false"
+                placeholder="SELECT 'Hello, DuckDB!' AS greeting;"></textarea>
+
+      <div id="status" class="status"></div>
+
+      <div id="results" class="results">
+        <div class="muted">Results will appear here.</div>
+      </div>
+    </section>
+
+    <footer class="foot">
+      <p>
+        Built on <a href="https://duckdb.org/docs/current/clients/node_neo/overview" target="_blank" rel="noreferrer">@duckdb/node-api</a>.
+        Each query opens a fresh connection on a shared in-memory instance.
+      </p>
+    </footer>
+  </main>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "duckdb-demo",
+  "version": "1.0.0",
+  "description": "An interactive demo showcasing DuckDB's power using the @duckdb/node-api Neo client",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@duckdb/node-api": "^1.5.2-alpha.31",
+    "express": "^4.21.2"
+  }
+}

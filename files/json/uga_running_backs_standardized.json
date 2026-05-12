@@ -1,0 +1,92 @@
+[
+    {
+      "name": "Nick Chubb",
+      "years": "2014-2017",
+        "rushing_attempts": 758,
+        "rushing_yards": 4769,
+        "yards_per_attempt": 6.29,
+        "rushing_touchdowns": 44
+      
+    },
+    {
+      "name": "Sony Michel",
+      "years": "2014-2017",
+        "rushing_attempts": 590,
+        "rushing_yards": 3638,
+        "yards_per_attempt": 6.17,
+        "rushing_touchdowns": 33
+      
+    },
+    {
+      "name": "Todd Gurley",
+      "years": "2012-2014",
+        "rushing_attempts": 510,
+        "rushing_yards": 3285,
+        "yards_per_attempt": 6.44,
+        "rushing_touchdowns": 36
+      
+    },
+    {
+      "name": "D'Andre Swift",
+      "years": "2017-2019",
+        "rushing_attempts": 440,
+        "rushing_yards": 2885,
+        "yards_per_attempt": 6.56,
+        "rushing_touchdowns": 20
+      
+    },
+    {
+      "name": "Knowshon Moreno",
+      "years": "2007-2008",
+        "rushing_attempts": 490,
+        "rushing_yards": 2734,
+        "yards_per_attempt": 5.58,
+        "rushing_touchdowns": 30
+      
+    },
+    {
+      "name": "Zamir White",
+      "years": "2019-2021",
+        "rushing_attempts": 382,
+        "rushing_yards": 2043,
+        "yards_per_attempt": 5.35,
+        "rushing_touchdowns": 25
+      
+    },
+    {
+      "name": "Kenny McIntosh",
+      "years": "2019-2022",
+        "rushing_attempts": 328,
+        "rushing_yards": 1829,
+        "yards_per_attempt": 5.58,
+        "rushing_touchdowns": 20
+      
+    },
+    {
+      "name": "Thomas Brown",
+      "years": "2004-2007",
+        "rushing_attempts": 533,
+        "rushing_yards": 2646,
+        "yards_per_attempt": 4.96,
+        "rushing_touchdowns": 23
+      
+    },
+    {
+      "name": "Isaiah Crowell",
+      "years": "2011",
+        "rushing_attempts": 190,
+        "rushing_yards": 850,
+        "yards_per_attempt": 4.47,
+        "rushing_touchdowns": 5
+      
+    },
+    {
+      "name": "Daijun Edwards",
+      "years": "2020-2023",
+        "rushing_attempts": 365,
+        "rushing_yards": 1881,
+        "yards_per_attempt": 5.15,
+        "rushing_touchdowns": 18
+      }
+    
+  ]
